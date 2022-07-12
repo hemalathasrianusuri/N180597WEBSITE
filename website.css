@@ -1,0 +1,387 @@
+body{
+  height: 4000px;
+  width: 99%;
+  background-color:ghostwhite;
+}
+.top-navigation{
+  padding: 10px;
+}
+#div1{
+  float: right;
+  margin-right: 30px;
+}
+.dropdown3 {
+  padding-left: 300px;
+  padding-right: 200px;
+}
+.dropdown2 {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+ .m{
+  font-size: 80px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-right: 130px;
+  text-align:center;
+  margin-right: 180px;
+}
+/*h3{
+  font-family: cursive;
+  font-size: 1.16rem;
+  margin-top: 0px;
+  padding-top: 0px;
+}*/
+.dropdown{
+  float: right;
+}
+/*TOP NAVIGATION*/
+.top-navigation{
+      position: -webkit- sticky;
+      position: sticky;
+      top: 0px;
+}
+.home1{
+    top:0;
+    left: 0;
+    float: left;
+}
+.top-navigation ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  background-color:#3c8cb7;
+  overflow: hidden;
+}
+.top-navigation li{
+  list-style-type: none;
+  display: inline-block;
+  height: 50px;
+}
+.top-navigation li a{
+  list-style-type: none;
+  display: block;
+  text-decoration: none;
+  padding: 14px 16px;
+  color: whitesmoke;
+  text-align: center;
+  position: relative;
+
+}
+.top-navigation li a:hover{
+  color:pink;
+}
+.top-navigation li a:active{
+  background-color:#3c8cb7 ;
+  color: white;
+}
+.top-navigation li a:hover:not(.active){
+  background-color:#bf92ca;
+  color: white;
+
+}
+/*MENU NAVIGATION*/
+.dropbtn {
+  background-color:ghostwhite;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color:#3c8cb7;
+  border-radius:0px ;
+  min-width: 150px;
+  overflow: hidden;
+
+  
+}
+.dropdown-content a {
+  color:white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown a:hover {
+  background-color:#7e3cb7
+}
+.show {
+  display: block;
+}
+#main-footer{
+  background-color:#3c8cb7 ;
+  color: #FFFFFF;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+
+}
+#main-footer p{
+  margin-top: 0px;
+  padding-right: 15px ;
+  display: inline;
+}
+div.foot{
+  float: right;
+  margin-right: 10px;
+  display: inline;
+  font-size: 20px;
+}
+#droplink{
+  background-color:#3c8cb7;
+  list-style-type: none;
+  display: inline-block;
+  height: 50px;
+}
+/*contact*/
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #3c8cb70;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown1 {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown1 .dropbtn1 {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color:#3c8cb7;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown1:hover .dropbtn1 {
+  background-color:#753cb7;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color:#3c8cb7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
+.dropdown-content1 a {
+  float:;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+/*BRANCH*/
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #3c8cb7;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown2{
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown2 .dropbtn2 {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color:#3c8cb7;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown2:hover .dropbtn2 {
+  background-color:#823cb7;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color:#3c8cb7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.dropdown-content2 a {
+  float:;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+/*CSE*/
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #3c8cb7;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown21{
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown21 .dropbtn21{
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color:#3c8cb7;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown21:hover .dropbtn21 {
+  background-color:#823cb7;
+}
+
+.dropdown-content21 {
+  display: none;
+  position: absolute;
+  background-color:#3c8cb7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.dropdown-content21 a {
+  float:;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown21:hover .dropdown-content21 {
+  display: block;
+}
+/*EXAM*/
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color:#3c8cb7;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown3{
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown3 .dropbtn3 {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color:#3c8cb7
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown3:hover .dropbtn3 {
+  background-color:#863cb7;
+}
+
+.dropdown-content3 {
+  display: none;
+  position: absolute;
+  background-color:#3c8cb7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.dropdown-content3 a {
+  float:;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown3:hover .dropdown-content3 {
+  display: block;
+}
+.scroll-image{
+  position: fixed;
+  bottom: 25px;
+  right: 0px;
+  border-radius:50px ;
+}
+/*Left div*/
+.sidebar{
+  background-color:#3c8cb7;
+  float: left;
+  /*height: 100%;*/
+  width: 20%;
+  border: 1px solid #3c8cb7;
+  margin-top: 0px;
+  position: absolute;
+}
+div .h1{
+  text-align: center;
+  color: white;
+  font-style: mv boli;
+}
+div p{
+  text-align:left;
+  color: whitesmoke;
+}
+/*Right div*/
+  .sidebar2{
+  background-color:#3c8cb7;
+  float:right;
+  /*height: 100%;*/
+  width: 20%;
+  border: 1px solid #3c8cb7;
+  margin-top: 0px;
+  overflow: auto;
+}
+.list{
+  border: solid white;
+}
